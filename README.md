@@ -1,6 +1,6 @@
 # Algoritmo e Lógica de Programação - Turma 2021
 
-## Python
+## Instalação do Python
 
 Nesta disciplina, usaremos a versão 3.x do Python, por exemplo, 3.5.1.
 
@@ -34,3 +34,25 @@ Para instalar o IDLE você pode utilizar o gerenciador de pacotes da sua distrib
 Ubuntu/Debian/Mint: **sudo apt-get install idle3**
 
 Fedora/openSUSE/CentOS: **sudo yum install python3-tools python3-idle**
+
+
+
+## Links úteis:
+
+* Como instalar o Python (Windows e Linux): https://profbreno.github.io/
+* PyCharm: https://www.jetbrains.com/pt-br/pycharm/download/
+* Vs Code: https://code.visualstudio.com/
+* Livro gratuito 1: https://panda.ime.usp.br/panda/static/pensepy/index.html
+* Livro Gratuito 2: https://panda.ime.usp.br/aulasPython/static/aulasPython/index.html
+* Python para IOS: https://apps.apple.com/us/app/qpython/id1262366391
+* Python para Android: https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=pt_BR&gl=US
+
+### Cursos Gratuitos em Python
+
+* https://on.fiap.com.br/local/movimentobrasildigital/
+
+* https://www.coursera.org/learn/ciencia-computacao-python-conceitos
+
+* https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1
+
+* https://www.oceanbrasil.com/online/

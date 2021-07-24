@@ -52,7 +52,5 @@ Fedora/openSUSE/CentOS: **sudo yum install python3-tools python3-idle**
 * https://on.fiap.com.br/local/movimentobrasildigital/
 
 * https://www.coursera.org/learn/ciencia-computacao-python-conceitos
-
 * https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1
-
 * https://www.oceanbrasil.com/online/

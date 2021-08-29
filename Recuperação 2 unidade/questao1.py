@@ -13,3 +13,11 @@ for i in range(n):  # loop para cada dia
 
 # imprime o valor inicial da bactéria
 print(f"O valor inicial da bactéria é {v}")
+
+# Outra forma de fazer o cálculo
+'''
+V = int(input("informe volume"))
+N = int(input("informe um número equivalente a dias"))
+Vol = V/2**N
+print("Vol inicial é", + Vol)
+'''

@@ -23,4 +23,5 @@ for i in range(65):
 
 # Imprimimos o resultado
 for i in range(6):
-    print(f'{i + 1} - {dados[i] / 65 * 100:.2f}%')  # porcentagem de cada face
+    # porcentagem de cada face
+    print(f'Face {i + 1} - {dados[i] / 65 * 100:.2f}%')

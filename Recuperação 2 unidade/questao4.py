@@ -13,23 +13,27 @@ jogos = [
     ['Uruguai', 'Alemanha', [20, 19]],
     ['Uruguai', 'Portugal', [15, 17]],
     ['Alemanha', 'Portugal', [17, 18]]
-]
+]  # lista de jogos
 
+# valores iniciais
 uruguai = 0
 alemanha = 0
 portugal = 0
 
+# loop para verificar o total de roubadas de bola
 for jogo in jogos:
     for i in range(2):
-        if jogo[i] == 'Uruguai':
-            uruguai += jogo[2][i]
-        elif jogo[i] == 'Alemanha':
-            alemanha += jogo[2][i]
-        elif jogo[i] == 'Portugal':
-            portugal += jogo[2][i]
+        if jogo[i] == 'Uruguai':  # verifica se o time da primeira posição é o uruguai
+            uruguai += jogo[2][i]  # soma o valor da roubada
+        elif jogo[i] == 'Alemanha':  # verifica se o time da segunda posição é a alemanha
+            alemanha += jogo[2][i]  # soma o valor da roubada
+        elif jogo[i] == 'Portugal':  # verifica se o time da terceira posição é o português
+            portugal += jogo[2][i]  # soma o valor da roubada
 
-print('Total de roubadas de bola:', uruguai + alemanha + portugal)
+print('Total de roubadas de bola:', uruguai +
+      alemanha + portugal)  # soma as roubadas de bola
+
 print('Time que fez mais roubadas:', 'Uruguai' if uruguai > alemanha and uruguai > portugal else 'Alemanha'
-      if alemanha > uruguai and alemanha > portugal else 'Portugal')
+      if alemanha > uruguai and alemanha > portugal else 'Portugal')  # verifica quem fez mais roubadas
 print('Time que fez menos roubadas:', 'Uruguai' if uruguai < alemanha and uruguai < portugal else 'Alemanha'
-      if alemanha < uruguai and alemanha < portugal else 'Portugal')
+      if alemanha < uruguai and alemanha < portugal else 'Portugal')  # verifica quem fez menos roubadas
